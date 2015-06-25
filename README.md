@@ -27,95 +27,22 @@ This is a custom widget built on jquery widget factory. It has ability to ready 
 
 ## Structure
 
-The basic structure of the project is given in the following way:
-
-#### [demo/](https://github.com/jquery-boilerplate/boilerplate/tree/master/demo)
-
-Contains a simple HTML file to demonstrate your plugin.
-
-#### [dist/](https://github.com/jquery-boilerplate/boilerplate/tree/master/dist)
-
-This is where the generated files are stored once Grunt runs.
-
-#### [src/](https://github.com/jquery-boilerplate/boilerplate/tree/master/src)
-
-Contains the files responsible for your plugin, you can choose between JavaScript or CoffeeScript.
-
-#### [.editorconfig](https://github.com/jquery-boilerplate/boilerplate/tree/master/.editorconfig)
-
-This file is for unifying the coding style for different editors and IDEs.
-
-> Check [editorconfig.org](http://editorconfig.org) if you haven't heard about this project yet.
-
-#### [.gitignore](https://github.com/jquery-boilerplate/boilerplate/tree/master/.gitignore)
-
-List of files that we don't want Git to track.
-
-> Check this [Git Ignoring Files Guide](https://help.github.com/articles/ignoring-files) for more details.
-
-#### [.jshintrc](https://github.com/jquery-boilerplate/boilerplate/tree/master/.jshintrc)
-
-List of rules used by JSHint to detect errors and potential problems in JavaScript.
-
-> Check [jshint.com](http://jshint.com/about/) if you haven't heard about this project yet.
-
-#### [.travis.yml](https://github.com/jquery-boilerplate/boilerplate/tree/master/.travis.yml)
-
-Definitions for continous integration using Travis.
-
-> Check [travis-ci.org](http://about.travis-ci.org/) if you haven't heard about this project yet.
-
-#### [boilerplate.jquery.json](https://github.com/jquery-boilerplate/boilerplate/tree/master/boilerplate.jquery.json)
-
-Package manifest file used to publish plugins in jQuery Plugin Registry.
-
-> Check this [Package Manifest Guide](http://plugins.jquery.com/docs/package-manifest/) for more details.
-
-#### [Gruntfile.js](https://github.com/jquery-boilerplate/boilerplate/tree/master/Gruntfile.js)
-
-Contains all automated tasks using Grunt.
-
-> Check [gruntjs.com](http://gruntjs.com) if you haven't heard about this project yet.
-
-#### [package.json](https://github.com/jquery-boilerplate/boilerplate/tree/master/package.json)
-
-Specify all dependencies loaded via Node.JS.
-
-> Check [NPM](https://npmjs.org/doc/json.html) for more details.
-
 ## Guides
-
-#### How did we get here?
-
-Have you got in this repo and still not sure about using this boilerplate?
-
-Well, extending jQuery with plugins and methods is very powerful and can save you and your peers a lot of development time by abstracting your most clever functions into plugins.
-
-[This awesome guide](https://github.com/jquery-boilerplate/boilerplate/wiki/How-did-we-get-here%3F), adapted from [jQuery Plugins/Authoring](http://docs.jquery.com/Plugins/Authoring), will outline the basics, best practices, and common pitfalls to watch out for as you begin writing your plugin.
-
-#### How to publish plugins?
-
-Also, check our guide on [How to publish a plugin in jQuery Plugin Registry](https://github.com/jquery-boilerplate/boilerplate/wiki/How-to-publish-a-plugin-in-jQuery-Plugin-Registry
-)!
-
-**Note:** The jQuery Plugin Registry is in read-only mode. New plugin releases will not be processed.
-jQuery recommends moving to [npm](https://www.npmjs.com/), using ["jquery-plugin"](https://www.npmjs.com/browse/keyword/jquery-plugin) as the keyword in your package.json. See [how to publish into npm registry](https://gist.github.com/coolaj86/1318304).
 
 ## Team
 
-jQuery Boilerplate was made with love by these guys and a bunch of awesome [contributors](https://github.com/jquery-boilerplate/boilerplate/graphs/contributors).
+vwidgetsGrid was made with love by these guys and a bunch of awesome [contributors](https://github.com/svivekvarma/vwidgetsGrid/graphs/contributors).
 
-[![Zeno Rocha](http://gravatar.com/avatar/e190023b66e2b8aa73a842b106920c93?s=70)](http://zenorocha.com) | [![Addy Osmani](http://gravatar.com/avatar/96270e4c3e5e9806cf7245475c00b275?s=70)](http://addyosmani.com) | [![Helder Santana](http://gravatar.com/avatar/63fb620ee7d14fc91030d4349d189b3e?s=70)](http://heldr.com)
---- | --- | --- | --- | --- | --- | ---
-[Zeno Rocha](http://zenorocha.com) | [Addy Osmani](http://addyosmani.com) | [Helder Santana](http://heldr.com)
+[![Vivek Siruvuri](https://s.gravatar.com/avatar/213d9933028c9a21e88b5fa7d6617d45?s=80)](http://github.com/svivekvarma) 
+[Vivek Siruvuri](http://github.com/svivekvarma) 
 
 ## Contributing
 
-Check [CONTRIBUTING.md](https://github.com/jquery-boilerplate/boilerplate/blob/master/CONTRIBUTING.md) for more information.
+Please fork it and  send me a push and , I will merge the changes and fixes
 
 ## History
 
-Check [Releases](https://github.com/jquery-boilerplate/jquery-boilerplate/releases) for detailed changelog.
+Check [Releases](https://github.com/svivekvarma/vwidgetsGrid/releases) for detailed changelog.
 
 ## License
 
