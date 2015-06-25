@@ -62,6 +62,12 @@ module.exports = function(grunt) {
 		watch: {
 		    files: ['src/*'],
 		    tasks: ['default']
+		},
+		connect: {
+			example: {
+				port: 1337,
+				base: '.'
+			}
 		}
 
 	});
@@ -71,9 +77,11 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-uglify");
 	grunt.loadNpmTasks("grunt-contrib-coffee");
 	grunt.loadNpmTasks("grunt-contrib-watch");
-
+	grunt.loadNpmTasks('grunt-connect');
+	
 	grunt.registerTask("build", ["concat", "uglify"]);
-	grunt.registerTask("default", ["jshint", "build"]);
+	grunt.registerTask("default", ["build","watch","connect:example"]);
 	grunt.registerTask("travis", ["default"]);
+	
 
 };
