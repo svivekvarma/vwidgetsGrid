@@ -1,10 +1,7 @@
-# jQuery Boilerplate [![Build Status](https://secure.travis-ci.org/jquery-boilerplate/jquery-boilerplate.svg?branch=master)](https://travis-ci.org/jquery-boilerplate/jquery-boilerplate) ![Bower Version](https://badge.fury.io/bo/jquery-boilerplate.svg)
+# vwidgetsGrid Plugin 
+### A plugin that helps render data based on jquery widget factory. It provides sort, render , search and custom templating.
 
-### A jump-start for jQuery plugins development
-
-So, you've tried your hand at writing jQuery plugins and you're comfortable putting together something that probably works. Awesome! Thing is, you think there might be better ways you could be writing them - you've seen them done a number of different ways in the wild, but aren't really sure what the differences between these patterns are or how to get started with them.
-
-This project won't seek to provide a perfect solution to every possible pattern, but will attempt to cover a simple template for beginners and above. By using a basic defaults object, simple constructor for assigning the element to work with and extending options with defaults and a lightweight wrapper around the constructor to avoid issues with multiple instantiations.
+This is a custom widget built on jquery widget factory. It has ability to ready data and render it. It also incorporates search , sort and custom templating. 
 
 ## Usage
 
@@ -17,13 +14,13 @@ This project won't seek to provide a perfect solution to every possible pattern,
 2. Include plugin's code:
 
 	```html
-	<script src="dist/jquery.boilerplate.min.js"></script>
+	<script src="dist/jquery.vwidgetsGrid.min.js"></script>
 	```
 
 3. Call the plugin:
 
 	```javascript
-	$("#element").defaultPluginName({
+	$("#element").vwidgetsGrid({
 		propertyName: "a custom value"
 	});
 	```
@@ -31,24 +28,6 @@ This project won't seek to provide a perfect solution to every possible pattern,
 ## Structure
 
 The basic structure of the project is given in the following way:
-
-```
-├── demo/
-│   └── index.html
-├── dist/
-│   ├── jquery.boilerplate.js
-│   └── jquery.boilerplate.min.js
-├── src/
-│   ├── jquery.boilerplate.coffee
-│   └── jquery.boilerplate.js
-├── .editorconfig
-├── .gitignore
-├── .jshintrc
-├── .travis.yml
-├── boilerplate.jquery.json
-├── Gruntfile.js
-└── package.json
-```
 
 #### [demo/](https://github.com/jquery-boilerplate/boilerplate/tree/master/demo)
 
