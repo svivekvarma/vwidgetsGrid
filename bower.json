@@ -1,0 +1,30 @@
+{
+  "name": "vwidgetsgrid",
+  "version": "0.0.1",
+  "authors": [
+    "Vivek Siruvuri <svivekvarma@gmail.com>"
+  ],
+  "description": "Grid rendering with widgets",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "grid",
+    "widget",
+    "responsive",
+    "touch"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
