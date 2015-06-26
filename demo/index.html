@@ -1,18 +1,50 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>jQuery Boilerplate</title>
+		<title>vwidgets - Gridder</title>
+		 <link href="../vwidgetsgridder.css" rel="stylesheet" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<script src="../bower_components/jqueryui/ui/widget.js"></script>
-		<script src="../src/jquery.boilerplate.js"></script>
+		<script src="../src/vwidgetsGrid.js"></script>
+	</head>
+	<script type="text/javascript">
 		
+		var widgetsConfig = {
+		            "data": [],
+		            css: { table: "grid"},
+		            headerTemplate: [],
+		            fieldTemplate: [{
+		                fieldName: "Address1",
+		                template: function (field) {
+		                    return 'Address';
+		                }
+		            }],
+		            hidefields: [],
+					amalgateColumns: [{
+		                columnHeader: "",
+		                amalgations: ["ID", "Name"],
+		                prepend: true,
+		                template: function (fields) {
+		                    var arrHTML = [];
+		                    arrHTML.push('<span>' + fields["Name"] +' -' + fields["ID"] + '</span>');
+		                    return arrHTML.join('');
+		                }
+		            }],
+		            showPagination: true,
+		            paginationPageSize: 10,
+		            pageSize: 5,
+		        };
+		        widgetsConfig.data = [
+		        { "ID": 1, "Name": "Aoe", "Address1": "23 Jami street" },
+		        { "ID": 2, "Name": "Jill", "Address1": "31 Napierville" }
+		            ]; 
+		        $(document).ready(function () {		           
+				        $('div.container').gridder(widgetsConfig); 
+		        });
+	</script>
 	</head>
 	<body>
-		<div id="element"></div>
-		<script>
-			$(function() {
-				console.log($);
-			});
-		</script>
+		<div class="container"></div>
 	</body>
+
 </html>
