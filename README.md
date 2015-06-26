@@ -1,4 +1,4 @@
-# vwidgetsGrid Plugin 
+# vwidgets.Gridder Plugin 
 ### A plugin that helps render data based on jquery widget factory. It provides sort, render , search and custom templating.
 
 This is a custom widget built on jquery widget factory. It has ability to ready data and render it. It also incorporates search , sort and custom templating. 
